@@ -4,7 +4,7 @@ BB
 CCC
 DDDD
  */
-package patterns1exercises;
+package patterns1_exercises;
 
 import java.util.Scanner;
 

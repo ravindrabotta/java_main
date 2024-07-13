@@ -1,16 +1,15 @@
 /*
-1
-2 2
-3 3 3
-4 4 4 4
-5 5 5 5 5
+A
+AB
+ABC
+ABCD
  */
-package patterns1exercises;
+package patterns1_exercises;
 
 import java.util.Scanner;
 
-public class Exercise2 {
-
+public class Exercise3 {
+	
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
@@ -22,11 +21,12 @@ public class Exercise2 {
 		while(index <= aNumber) {
 			int j = 1;
 			while(j <= index) {
-				System.out.print(index + " ");
-				j++;
+				System.out.print((char)('A' + j - 1) + " ");
+				j++;				
 			}
 			System.out.println();
 			index++;
 		}
 	}
+
 }

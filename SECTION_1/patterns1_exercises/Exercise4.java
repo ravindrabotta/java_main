@@ -4,7 +4,7 @@
 12 **** 21
 1 ****** 1
  */
-package patterns1exercises;
+package patterns1_exercises;
 
 public class Exercise4 {
 

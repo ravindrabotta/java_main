@@ -4,7 +4,7 @@
 2345
 1234
  */
-package patterns1exercises;
+package patterns1_exercises;
 
 public class Exercise6 {
 

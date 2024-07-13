@@ -19,7 +19,7 @@ public class CharacterPattern2 {
 		
 		int index = 1;
 		while(index <= aNumber) {
-			int j = 1;
+			int j = 0;
 			char ch = (char)('A' + index - 1);
 			while(j <= aNumber) {
 				System.out.print(ch + " ");
