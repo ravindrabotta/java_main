@@ -1,5 +1,18 @@
 package arrays1_exercises;
 
+/*
+Sample Input :
+2
+7
+2 13 4 1 3 6 28
+9
+5
+7 8 5 9 5
+5
+Sample Output :
+-1
+2
+ */
 import java.util.Scanner;
 public class LinearSearch {
 

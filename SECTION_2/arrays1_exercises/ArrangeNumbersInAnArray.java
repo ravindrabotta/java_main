@@ -8,7 +8,7 @@ public class ArrangeNumbersInAnArray {
         int mid = size / 2;
         int k = 1;
         for(int i = 0; i <= mid; i++) {
-            arr[i] = k;
+            arr[i] = k; 
             if (i < mid) {
                 k++;
                 arr[size - i - 1] = k;
